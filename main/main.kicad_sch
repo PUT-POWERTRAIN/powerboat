@@ -1,5 +1,111 @@
-(kicad_sch (version 20230121) (generator eeschema)
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "54fbbba9-a737-4199-9a4b-f9fa49b3de5e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 26.67 34.29)
+		(size 40.64 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42b38d5d-5c36-4712-95e4-9fdfab477064")
+		(property "Sheetname" "Panels"
+			(at 26.67 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "panels.kicad_sch"
+			(at 26.67 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_PV" input
+			(at 26.67 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e5f7a13-70fd-485c-a23c-0e6f6c8cc760")
+		)
+		(pin "VCC_PV" input
+			(at 26.67 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b27d199-d3ed-4e84-b0f2-807f4e0d5f4b")
+		)
+		(pin "GND_5V" input
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9ff55682-d7c0-43c9-8c49-67f29cf8570c")
+		)
+		(pin "VCC_5V" input
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8f8bca6-6309-435c-a8a7-5338cfa7185f")
+		)
+		(pin "SCL" input
+			(at 67.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "02a02d15-c93c-4336-ab0b-b2c9998deb02")
+		)
+		(pin "SDA" input
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bf35785b-caf4-4f78-a6d5-2ccd5f5ea130")
+		)
+		(instances
+			(project "main"
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
