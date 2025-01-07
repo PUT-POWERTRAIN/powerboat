@@ -5,6 +5,436 @@
 	(uuid "fe05cc6c-9536-4f23-952d-fc3809761652")
 	(paper "A4")
 	(lib_symbols
+		(symbol "New_Library_0:Bidirectional I2C Isolator"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ISO1540"
+				(at 0.254 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bidirectional I2C Isolator_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Bidirectional I2C Isolator_1_1"
+				(pin input line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "New_Library_0:CAN-BUS_MCP2515_SPI"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at 11.684 14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CAN-BUS_MCP2515_SPI"
+				(at 12.192 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://sklep.msalamon.pl/produkt/modul-can-bus-mcp2515-spi/"
+				(at 35.052 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAN-BUS_MCP2515_SPI_1_1"
+				(rectangle
+					(start -12.7 11.43)
+					(end 12.7 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 8.89 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -1.27 0)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "SI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 6.35 0)
+					(length 2.54)
+					(name "SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 13.97 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "New_Library_0:Jetson_Orion_Nano"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1596,7 +2026,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 60.96) (xy 142.24 60.96)
+			(xy 116.84 60.96) (xy 154.94 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +2036,107 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 39.37) (xy 153.67 39.37)
+			(xy 83.82 105.41) (xy 83.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fcd27d-1b94-4163-ab23-0b50362ce09b")
+	)
+	(wire
+		(pts
+			(xy 215.9 120.65) (xy 218.44 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10dccff9-5346-4a8f-b34a-0845a00a821f")
+	)
+	(wire
+		(pts
+			(xy 172.72 60.96) (xy 186.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1922127f-16ed-4fa2-b3ea-7fc0fec5a073")
+	)
+	(wire
+		(pts
+			(xy 86.36 22.86) (xy 86.36 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34abf7c1-bd99-4fee-9f39-6f248c00985f")
+	)
+	(wire
+		(pts
+			(xy 231.14 91.44) (xy 231.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8a80ed-19cc-416a-82e7-8aa49d7ab98f")
+	)
+	(wire
+		(pts
+			(xy 215.9 115.57) (xy 218.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e338279-b925-4353-8efc-746135e2dbee")
+	)
+	(wire
+		(pts
+			(xy 212.09 60.96) (xy 214.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524afd65-6daa-4e31-b56a-1c81fac8b353")
+	)
+	(wire
+		(pts
+			(xy 212.09 63.5) (xy 214.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c06238-0c8d-45ab-b520-389c24f35cf6")
+	)
+	(wire
+		(pts
+			(xy 212.09 58.42) (xy 214.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5624dc57-b731-41b0-bcca-18bb7572e608")
+	)
+	(wire
+		(pts
+			(xy 233.68 125.73) (xy 233.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6262b6e6-e075-4679-8835-12317b62a5ae")
+	)
+	(wire
+		(pts
+			(xy 186.69 38.1) (xy 214.63 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +2146,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 41.91) (xy 144.78 63.5)
+			(xy 252.73 63.5) (xy 255.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794da6d7-1f3e-4c89-8c7d-e55f6c0016b5")
+	)
+	(wire
+		(pts
+			(xy 189.23 40.64) (xy 189.23 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +2166,47 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 41.91) (xy 144.78 41.91)
+			(xy 212.09 71.12) (xy 214.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8817cc01-d57a-4c04-873e-390ddb4a69c4")
+	)
+	(wire
+		(pts
+			(xy 154.94 63.5) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97f525c-c22c-402e-933f-0f22a696722a")
+	)
+	(wire
+		(pts
+			(xy 215.9 113.03) (xy 218.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad47ad8e-a393-4e66-871c-9036e1ade4ef")
+	)
+	(wire
+		(pts
+			(xy 236.22 91.44) (xy 236.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c560888b-dd71-4371-81e3-ae12308d4660")
+	)
+	(wire
+		(pts
+			(xy 214.63 40.64) (xy 189.23 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +2216,37 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 60.96) (xy 142.24 39.37)
+			(xy 233.68 102.87) (xy 233.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead2ecac-46f0-450c-9bc0-7bc78f22cfd7")
+	)
+	(wire
+		(pts
+			(xy 215.9 118.11) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7e557f-32f7-4532-886d-a7fd5ad72139")
+	)
+	(wire
+		(pts
+			(xy 215.9 110.49) (xy 218.44 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5938d40-cbd9-49a2-9bd9-1ab4d3a1a3a5")
+	)
+	(wire
+		(pts
+			(xy 186.69 60.96) (xy 186.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1646,13 +2256,195 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 63.5) (xy 116.84 63.5)
+			(xy 189.23 63.5) (xy 172.72 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8ce42f7-33e8-4bd9-9b41-d6285fe7557b")
+	)
+	(label "BAT_SI"
+		(at 215.9 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "012c94d2-ca0b-4ae6-9b4f-beaa6504af27")
+	)
+	(label "BAT_SO"
+		(at 212.09 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fc4f11f-2ac4-43c9-ae95-05e8018e2922")
+	)
+	(label "BAT_SO"
+		(at 215.9 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b9e0e65-0701-4af8-82cb-2d5eb787694e")
+	)
+	(label "BAT_SI"
+		(at 212.09 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5719889b-66e2-4c1f-89c4-91e1e689d70f")
+	)
+	(label "BAT_SCK"
+		(at 212.09 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ebb711f-e2af-4117-82ce-f9720c25ee24")
+	)
+	(label "BAT_INT"
+		(at 212.09 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f1d5a04-12ca-406d-ad4b-98d15a5d61ef")
+	)
+	(label "BAT_CS"
+		(at 255.27 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "966a0d2b-9a6a-44a7-9e47-a482ccc49dc6")
+	)
+	(label "BAT_INT"
+		(at 215.9 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99eb5f08-c03e-4a79-b623-8cb26e3be142")
+	)
+	(label "BAT_SCK"
+		(at 215.9 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba1fdfaa-ed04-4dfa-ba08-fe86d8c82532")
+	)
+	(label "BAT_CS"
+		(at 215.9 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee3af4c2-be01-4b08-9a06-2574209ca1a1")
+	)
+	(hierarchical_label "BAT_CAN_L"
+		(shape input)
+		(at 248.92 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09315aa3-8e46-4118-83d3-272be1f82e6b")
+	)
+	(hierarchical_label "BAT_CAN_H"
+		(shape input)
+		(at 248.92 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "198b07e1-c668-4e29-8613-9e4370f0c894")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 172.72 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25c4feeb-326f-4431-88f9-66d9d92a573a")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 233.68 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29ee5a2a-9fbb-4e89-9520-310a517ed9d4")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 154.94 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3711e7c9-3b34-44fe-8198-31428629a617")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 233.68 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42a077be-bc05-45cc-acb7-9df577b4b1f4")
 	)
 	(hierarchical_label "PV_I2C_SDA"
 		(shape input)
@@ -1678,9 +2470,21 @@
 		)
 		(uuid "88420b72-7b2c-47e4-b6db-893e6b945d23")
 	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 154.94 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d4faeac-fdec-4378-9f70-ebfcf2ab00d9")
+	)
 	(hierarchical_label "+12V"
 		(shape input)
-		(at 170.18 91.44 270)
+		(at 231.14 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1690,21 +2494,9 @@
 		)
 		(uuid "b3df576a-487d-4645-8c84-2cbc184ee91a")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 83.82 99.06 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc83aa58-0610-4ce8-9cae-49039fc1f9bd")
-	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 86.36 27.94 90)
+		(at 172.72 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1712,11 +2504,23 @@
 			)
 			(justify left)
 		)
-		(uuid "d07b29ec-5c01-4afc-93d3-2d3c0652d99f")
+		(uuid "bfadc6bd-eff9-4cd9-addd-9b20652716a2")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 175.26 91.44 270)
+		(at 83.82 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc83aa58-0610-4ce8-9cae-49039fc1f9bd")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 86.36 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1724,7 +2528,110 @@
 			)
 			(justify right)
 		)
+		(uuid "d07b29ec-5c01-4afc-93d3-2d3c0652d99f")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 236.22 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "f1786a97-ab07-4c09-a19d-8391ee37386f")
+	)
+	(symbol
+		(lib_id "New_Library_0:CAN-BUS_MCP2515_SPI")
+		(at 233.68 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60ee099c-a43a-4aef-a691-cdb14194127d")
+		(property "Reference" "A2"
+			(at 235.8741 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN-BUS_MCP2515_SPI"
+			(at 235.8741 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://sklep.msalamon.pl/produkt/modul-can-bus-mcp2515-spi/"
+			(at 268.732 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "cd29eba5-0ae3-40c3-9459-349e8051f337")
+		)
+		(pin ""
+			(uuid "004d8d24-15f8-46b5-9717-53b0914fb21e")
+		)
+		(pin ""
+			(uuid "82792c72-242b-4532-9308-41a87039ce76")
+		)
+		(pin ""
+			(uuid "c843b913-6b28-4444-8190-009ca58d46a0")
+		)
+		(pin ""
+			(uuid "c73d25f8-19b0-4e7c-9e18-f4cd6bf037c9")
+		)
+		(pin ""
+			(uuid "a626513f-f81d-4cbd-a6e8-20c3959af5de")
+		)
+		(pin ""
+			(uuid "a7db0880-ccb7-4cb5-bb32-d0a0d83cd46d")
+		)
+		(pin ""
+			(uuid "fcc9860a-96f9-4309-808d-4090ef977d6d")
+		)
+		(pin ""
+			(uuid "4bbf43c7-fcb6-4e34-86a6-365000f211c3")
+		)
+		(instances
+			(project ""
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/2f810269-778d-47ba-b7da-0b431c3bad09"
+					(reference "A2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_Espressif:ESP32-DevKitC")
@@ -1906,7 +2813,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:Jetson_Orion_Nano")
-		(at 172.72 77.47 0)
+		(at 233.68 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1915,7 +2822,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7f52224-6923-48f3-8378-cb8158c814b0")
 		(property "Reference" "A1"
-			(at 172.72 29.21 0)
+			(at 233.68 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +2830,7 @@
 			)
 		)
 		(property "Value" "Jetson_Orin_nano_headers"
-			(at 172.72 31.75 0)
+			(at 233.68 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +2838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 77.47 0)
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +2847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 77.47 0)
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +2856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 77.47 0)
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,6 +2994,92 @@
 			(project ""
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/2f810269-778d-47ba-b7da-0b431c3bad09"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library_0:Bidirectional I2C Isolator")
+		(at 163.83 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9f427cc-468c-42de-9116-aa71234a4562")
+		(property "Reference" "ISO17"
+			(at 163.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 163.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5b05b0d5-a6ef-4c1d-92c6-60dea3a7e110")
+		)
+		(pin ""
+			(uuid "df7f407c-8f8f-4ad7-bf12-06e3040cc5ce")
+		)
+		(pin ""
+			(uuid "32dcb217-80c3-452e-aa36-045f4bfeb329")
+		)
+		(pin ""
+			(uuid "934372da-dae0-4db8-966f-5012bc173a22")
+		)
+		(pin ""
+			(uuid "0dc71f21-6153-45de-8e56-85841f10092d")
+		)
+		(pin ""
+			(uuid "5d29604b-2f92-4cb7-91dc-db6026d3ecb4")
+		)
+		(pin ""
+			(uuid "b5fe9772-05ba-4d43-aaaf-f31f28ca8025")
+		)
+		(pin ""
+			(uuid "b34f0b93-cc55-4c7b-9bb5-e51dfd64d524")
+		)
+		(instances
+			(project "main"
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/2f810269-778d-47ba-b7da-0b431c3bad09"
+					(reference "ISO17")
 					(unit 1)
 				)
 			)

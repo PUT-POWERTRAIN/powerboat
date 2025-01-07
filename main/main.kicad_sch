@@ -531,6 +531,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 110.49) (xy 58.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3664bdf2-ba51-4e5f-aa36-8de2d2409345")
+	)
+	(wire
+		(pts
 			(xy 135.89 48.26) (xy 140.97 48.26)
 		)
 		(stroke
@@ -538,6 +548,16 @@
 			(type default)
 		)
 		(uuid "380db6b9-8915-4310-ad1e-35ec616ee831")
+	)
+	(wire
+		(pts
+			(xy 173.99 54.61) (xy 176.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fa17d0-1bc4-453e-94b4-7af790722fe7")
 	)
 	(wire
 		(pts
@@ -581,7 +601,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 43.18) (xy 176.53 43.18)
+			(xy 55.88 107.95) (xy 58.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6810cdb3-854d-44f1-a0d2-b3a19a22faba")
+	)
+	(wire
+		(pts
+			(xy 173.99 40.64) (xy 176.53 40.64)
 		)
 		(stroke
 			(width 0)
@@ -711,13 +741,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 46.99) (xy 176.53 46.99)
+			(xy 173.99 43.18) (xy 176.53 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7d80766-1d36-4364-89dd-2117db98a7c0")
+	)
+	(wire
+		(pts
+			(xy 173.99 52.07) (xy 176.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc129329-fb81-4250-85d8-e3922802b4ad")
 	)
 	(rectangle
 		(start 54.61 88.9)
@@ -773,6 +813,17 @@
 		)
 		(uuid "29c917f4-8565-4504-8fc4-f94f4b01e4d9")
 	)
+	(label "BAT_CAN_H"
+		(at 176.53 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "316b28c7-f7d6-4fba-9a0f-48bdaa4ec811")
+	)
 	(label "+12V"
 		(at 24.13 100.33 180)
 		(fields_autoplaced yes)
@@ -818,7 +869,7 @@
 		(uuid "941f41ba-ef6b-491d-90ff-7d6bbe346ce2")
 	)
 	(label "PV_SDA"
-		(at 176.53 43.18 0)
+		(at 176.53 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -861,6 +912,17 @@
 		)
 		(uuid "bf59b88b-92be-4530-b0f7-a7dabf1b3c6f")
 	)
+	(label "BAT_CAN_L"
+		(at 176.53 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d026ab3a-fe7e-4ad3-90b9-4367ac3c8285")
+	)
 	(label "VCC_PV"
 		(at 22.86 80.01 180)
 		(fields_autoplaced yes)
@@ -873,7 +935,7 @@
 		(uuid "d753ae38-9506-4209-989c-dac86cd66532")
 	)
 	(label "PV_SCL"
-		(at 176.53 46.99 0)
+		(at 176.53 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -882,6 +944,28 @@
 			(justify left bottom)
 		)
 		(uuid "e13d7cec-2dfc-4184-b234-7bf8f603178d")
+	)
+	(label "BAT_CAN_H"
+		(at 58.42 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e41936a9-ac1a-4aa0-a979-048454d1cdc4")
+	)
+	(label "BAT_CAN_L"
+		(at 58.42 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f34e5a4d-cf3c-492c-9de5-90b7f67e59b7")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1190,7 +1274,7 @@
 	)
 	(sheet
 		(at 140.97 36.83)
-		(size 33.02 19.05)
+		(size 33.02 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1210,7 +1294,7 @@
 			)
 		)
 		(property "Sheetfile" "CCU.kicad_sch"
-			(at 140.97 56.4646 0)
+			(at 140.97 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1323,7 @@
 			(uuid "5e0e2cba-0789-4082-a499-efe2ba5ff1ba")
 		)
 		(pin "PV_I2C_SDA" input
-			(at 173.99 43.18 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1333,7 @@
 			(uuid "0868bafe-e51f-4dee-a9a6-e4d70ffd5ad8")
 		)
 		(pin "PV_I2C_SCL" input
-			(at 173.99 46.99 0)
+			(at 173.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1267,6 +1351,26 @@
 				(justify left)
 			)
 			(uuid "7441f1ba-2376-4fac-8c17-c3de1f59cf1a")
+		)
+		(pin "BAT_CAN_L" input
+			(at 173.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "297b4acc-3eb8-4a85-ac3e-ad528236e965")
+		)
+		(pin "BAT_CAN_H" input
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da88db95-862e-428e-875d-e18377617afa")
 		)
 		(instances
 			(project "main"
