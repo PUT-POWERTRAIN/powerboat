@@ -504,23 +504,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 96.52) (xy 106.68 96.52)
+			(xy 143.51 96.52) (xy 157.48 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5695f28c-5129-41b6-87ef-4a4b9f7dfd27")
+		(uuid "838c5cd7-01ee-4cc8-8dc7-6244395b3eb5")
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 157.48 96.52)
+			(xy 111.76 96.52) (xy 96.52 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76541a1e-2982-410f-9c76-179e1c48d22d")
+		(uuid "9e07e621-bc70-4860-83f6-d78b0155bad4")
 	)
 	(hierarchical_label "CAN_H"
 		(shape input)
@@ -548,7 +548,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 118.11 81.28 90)
+		(at 123.19 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -584,7 +584,7 @@
 	)
 	(hierarchical_label "VBatt"
 		(shape input)
-		(at 121.92 81.28 90)
+		(at 127 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -596,7 +596,7 @@
 	)
 	(hierarchical_label "Ve.Direct"
 		(shape input)
-		(at 125.73 81.28 90)
+		(at 130.81 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -608,7 +608,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:SmartShunt")
-		(at 121.92 88.9 270)
+		(at 127 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -617,7 +617,7 @@
 		(fields_autoplaced yes)
 		(uuid "42e6cb2d-01a7-4ad4-ba7e-f7edcd1f7e1a")
 		(property "Reference" "SSh1"
-			(at 122.555 102.87 90)
+			(at 127.635 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +625,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 122.555 104.14 90)
+			(at 127.635 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.555 95.885 90)
+			(at 127.635 95.885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -642,7 +642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.555 95.885 90)
+			(at 127.635 95.885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,7 +651,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 122.555 95.885 90)
+			(at 127.635 95.885 90)
 			(effects
 				(font
 					(size 1.27 1.27)

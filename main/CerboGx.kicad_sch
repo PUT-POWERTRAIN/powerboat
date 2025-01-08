@@ -441,9 +441,9 @@
 		)
 		(uuid "45fd0039-c86d-4f36-b53e-f4ab8bd54c6a")
 	)
-	(hierarchical_label "HDMI"
+	(hierarchical_label "Ethernet"
 		(shape input)
-		(at 157.48 78.74 90)
+		(at 161.29 78.74 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -451,7 +451,7 @@
 			)
 			(justify left)
 		)
-		(uuid "61c06738-2c66-4cfd-ba47-fc0a9206e0d3")
+		(uuid "5b95b29e-1e6b-4c3e-a2f0-f8dfb4171540")
 	)
 	(hierarchical_label "Ve.Direct"
 		(shape input)

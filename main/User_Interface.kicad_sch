@@ -4,5 +4,264 @@
 	(generator_version "8.0")
 	(uuid "6df742aa-d1c4-45db-8bf7-81b2ccbde4f8")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "New_Library_0:Monitor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "UI"
+				(at 0 26.416 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Monitor_0_1"
+				(rectangle
+					(start -25.4 -12.7)
+					(end 25.4 25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Monitor_1_1"
+				(pin input line
+					(at 12.7 -15.24 90)
+					(length 2.54)
+					(name "4_pin_power"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -15.24 90)
+					(length 2.54)
+					(name "9_pin_sonar"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 90)
+					(length 2.54)
+					(name "NMEA2000"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -15.24 90)
+					(length 2.54)
+					(name "Radar_port_Ethernet"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(hierarchical_label "Radar_port_ethernet"
+		(shape input)
+		(at 133.35 114.3 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53f2ae19-4c8e-42a1-9483-b0ff0b5d93a7")
+	)
+	(hierarchical_label "NMEA2000"
+		(shape input)
+		(at 138.43 114.3 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "592d4a52-fe1c-4938-9674-8434d99f5973")
+	)
+	(hierarchical_label "4_pin_power"
+		(shape input)
+		(at 163.83 114.3 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59bf9779-087f-4526-a437-62e3555ae1f8")
+	)
+	(hierarchical_label "9_pin_sonar"
+		(shape input)
+		(at 168.91 114.3 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "699c25ff-a546-431c-971a-57277173ce97")
+	)
+	(symbol
+		(lib_id "New_Library_0:Monitor")
+		(at 151.13 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df512e16-8dc6-4e81-b081-46e0b38c0598")
+		(property "Reference" "UI"
+			(at 149.352 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "573a7fe8-3247-48b2-99a0-a99f319603fc")
+		)
+		(pin ""
+			(uuid "d9d0c2aa-1e5c-4be0-b4e6-42d3032831f5")
+		)
+		(pin ""
+			(uuid "84c38257-16aa-4d76-8cd1-7c24bce39b18")
+		)
+		(pin ""
+			(uuid "30f33484-1d4c-4724-9984-17517626e690")
+		)
+		(instances
+			(project ""
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/3ec4e0ef-19c3-4e21-bb09-251ed42858ce"
+					(reference "UI")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
