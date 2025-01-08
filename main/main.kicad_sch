@@ -1273,6 +1273,104 @@
 		)
 	)
 	(sheet
+		(at 29.21 125.73)
+		(size 26.67 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e0ba13e-1f37-4579-8a2d-3eca3dc701e5")
+		(property "Sheetname" "Main_Motor"
+			(at 29.21 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main_Motor.kicad_sch"
+			(at 29.21 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 29.21 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac279bfc-9944-4fb9-9fc1-29190ea588d6")
+		)
+		(pin "+48V" input
+			(at 29.21 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4155da69-7811-4eda-a93f-37f2e714ece6")
+		)
+		(pin "VBatt" input
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b5ed507-da4d-450b-ad6d-b7c12d440c01")
+		)
+		(pin "Ve.Direct" input
+			(at 55.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "96fcac40-4202-4ddd-9900-502c95e46063")
+		)
+		(pin "CAN_L" input
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25127d31-281e-4876-b771-bb7b1ee3b393")
+		)
+		(pin "CAN_H" input
+			(at 55.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a88e76ad-e9ae-449c-8c77-931142ed9ecb")
+		)
+		(instances
+			(project "main"
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 140.97 36.83)
 		(size 33.02 22.86)
 		(fields_autoplaced yes)

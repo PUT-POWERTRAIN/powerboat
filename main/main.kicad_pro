@@ -385,7 +385,7 @@
   "sheets": [
     [
       "54fbbba9-a737-4199-9a4b-f9fa49b3de5e",
-      "Root"
+      "Główny"
     ],
     [
       "42b38d5d-5c36-4712-95e4-9fdfab477064",
@@ -458,6 +458,10 @@
     [
       "2f810269-778d-47ba-b7da-0b431c3bad09",
       "Central_Countrol_Unit"
+    ],
+    [
+      "0e0ba13e-1f37-4579-8a2d-3eca3dc701e5",
+      "Main_Motor"
     ]
   ],
   "text_variables": {}
