@@ -1,0 +1,598 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "32767358-d5b4-4a63-bf5a-d16f74fcd9c4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "New_Library_0:Cerbo_Gx"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Ce_Gx"
+				(at 0 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 6.35 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.35 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 6.35 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 6.35 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Cerbo_Gx_0_1"
+				(rectangle
+					(start -22.86 8.89)
+					(end 22.86 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Cerbo_Gx_1_1"
+				(text "Relay 1"
+					(at -6.35 -5.588 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Relay 2"
+					(at 6.35 -5.588 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 11.43 270)
+					(length 2.54)
+					(name "BMS_CAN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -6.35 -13.97 90)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -13.97 90)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 11.43 270)
+					(length 2.54)
+					(name "Ethernet"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 11.43 270)
+					(length 2.54)
+					(name "HDMI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -3.81 -13.97 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -13.97 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 -13.97 90)
+					(length 2.54)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 -13.97 90)
+					(length 2.54)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -13.97 90)
+					(length 2.54)
+					(name "Power_+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -13.97 90)
+					(length 2.54)
+					(name "Power_-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 11.43 270)
+					(length 2.54)
+					(name "USB_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 11.43 270)
+					(length 2.54)
+					(name "USB_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 11.43 270)
+					(length 2.54)
+					(name "Ve_BUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 11.43 270)
+					(length 2.54)
+					(name "Ve_Direct_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 11.43 270)
+					(length 2.54)
+					(name "Ve_Direct_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 11.43 270)
+					(length 2.54)
+					(name "Ve_Direct_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 11.43 270)
+					(length 2.54)
+					(name "Ve_can"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 162.56 104.14) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4560aafa-81cb-4db8-a28e-361dd79e666c")
+	)
+	(wire
+		(pts
+			(xy 158.75 104.14) (xy 158.75 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cc3f6d-fbc2-4443-9e2a-c4362bfff489")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 158.75 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45fd0039-c86d-4f36-b53e-f4ab8bd54c6a")
+	)
+	(hierarchical_label "HDMI"
+		(shape input)
+		(at 157.48 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61c06738-2c66-4cfd-ba47-fc0a9206e0d3")
+	)
+	(hierarchical_label "Ve.Direct"
+		(shape input)
+		(at 146.05 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "797cac70-4669-40f0-a86d-1952d267a39c")
+	)
+	(hierarchical_label "+12V"
+		(shape input)
+		(at 162.56 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "996b1d30-4221-40f6-a3c5-7e78bb45e085")
+	)
+	(symbol
+		(lib_id "New_Library_0:Cerbo_Gx")
+		(at 142.24 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db124f15-7aa7-4593-a8e8-ded113598979")
+		(property "Reference" "Ce_Gx1"
+			(at 166.37 90.8049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e71ebde1-8ba2-4db4-a54f-2aa3e927a983")
+		)
+		(pin ""
+			(uuid "3c85aca3-8d10-4661-9ae4-bf9c0724c776")
+		)
+		(pin ""
+			(uuid "d92f369e-b631-443b-bf1f-63f66a158e46")
+		)
+		(pin ""
+			(uuid "9aea410d-cc22-4c75-97ea-c81768b1ee27")
+		)
+		(pin ""
+			(uuid "59ddb3c0-5a4b-4ea2-b6d2-ecf4859dce71")
+		)
+		(pin ""
+			(uuid "df4cf7ee-03af-49ae-b965-370d4b62f0e0")
+		)
+		(pin ""
+			(uuid "95bbd086-ff3b-4960-85e4-ac8f8ffa9e6b")
+		)
+		(pin ""
+			(uuid "82b3d950-42fe-4f53-ad89-64580dbdc553")
+		)
+		(pin ""
+			(uuid "ff15d8ca-ce7b-4568-a2cc-e71657c9d224")
+		)
+		(pin ""
+			(uuid "a752745c-c73d-4bed-8c1f-f46fe539a7d0")
+		)
+		(pin ""
+			(uuid "9a4b4e93-ffed-4e66-9abf-99fea142a07f")
+		)
+		(pin ""
+			(uuid "0807d831-c32b-4548-8e86-d9c7fbad866a")
+		)
+		(pin ""
+			(uuid "933c3299-a6fa-4242-9c58-0bc5840a715f")
+		)
+		(pin ""
+			(uuid "35c35cf5-2e91-420e-8031-d41ef837cfe9")
+		)
+		(pin ""
+			(uuid "5cf7bb64-a5fa-4885-8b4e-4c9d7661c2de")
+		)
+		(pin ""
+			(uuid "f31613f7-a71e-47a9-b061-e8ac835b738d")
+		)
+		(pin ""
+			(uuid "f2f9524c-d86f-433f-a55a-bb1cb02ed9ba")
+		)
+		(pin ""
+			(uuid "3f6a5248-4729-4f6d-83e8-22b9b7a47d7c")
+		)
+		(instances
+			(project ""
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/5fbc5c59-ef67-4b0e-ad24-aa6723309288"
+					(reference "Ce_Gx1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

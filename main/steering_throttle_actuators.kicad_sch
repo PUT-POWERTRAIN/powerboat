@@ -366,6 +366,7 @@
 		(uuid "ebcc0db1-7a05-442d-8565-dd9ae19137c5")
 	)
 	(symbol
+		(lib_name "New_Library_0:Motor")
 		(lib_id "New_Library_0:Motor")
 		(at 157.48 90.17 0)
 		(unit 1)
@@ -375,7 +376,7 @@
 		(dnp no)
 		(uuid "9f0920fa-1009-4fb3-b8e0-84bd7c556304")
 		(property "Reference" "M3"
-			(at 162.56 91.4399 0)
+			(at 155.956 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -450,7 +451,7 @@
 		(dnp no)
 		(uuid "f2d86457-b72c-4dce-9544-7aa5815538b8")
 		(property "Reference" "M2"
-			(at 102.87 91.4399 0)
+			(at 96.266 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)

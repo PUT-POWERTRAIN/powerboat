@@ -385,7 +385,7 @@
   "sheets": [
     [
       "54fbbba9-a737-4199-9a4b-f9fa49b3de5e",
-      "Główny"
+      "Root"
     ],
     [
       "42b38d5d-5c36-4712-95e4-9fdfab477064",
@@ -457,11 +457,11 @@
     ],
     [
       "2f810269-778d-47ba-b7da-0b431c3bad09",
-      "Central_Countrol_Unit"
+      "Central Control Unit"
     ],
     [
       "0e0ba13e-1f37-4579-8a2d-3eca3dc701e5",
-      "Main_Motor"
+      "Main motor"
     ],
     [
       "956e0365-6d74-4799-9d68-b1a004ee179e",
@@ -501,7 +501,15 @@
     ],
     [
       "bb2356e9-5b53-4784-8a08-c206b96d840f",
-      "Steering_Throttle_Actuators"
+      "Steering throttle actuators"
+    ],
+    [
+      "5fbc5c59-ef67-4b0e-ad24-aa6723309288",
+      "CerboGx"
+    ],
+    [
+      "3ec4e0ef-19c3-4e21-bb09-251ed42858ce",
+      "User Interface"
     ]
   ],
   "text_variables": {}
