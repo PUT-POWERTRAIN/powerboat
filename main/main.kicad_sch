@@ -661,6 +661,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 81.28) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9db5be-2fb7-45af-a820-850bb8b607ce")
+	)
+	(wire
+		(pts
 			(xy 24.13 41.91) (xy 26.67 41.91)
 		)
 		(stroke
@@ -688,6 +698,36 @@
 			(type default)
 		)
 		(uuid "c311e80e-b927-4661-945b-c80af68d30f4")
+	)
+	(wire
+		(pts
+			(xy 137.16 77.47) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecf9c16-4fd4-44f3-97fd-12eb2e743143")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d263ae14-6500-4d4c-a1fd-0b1e2b0bbf38")
+	)
+	(wire
+		(pts
+			(xy 173.99 77.47) (xy 179.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34f20dc-48d3-45fd-b90c-6527707aa1d6")
 	)
 	(wire
 		(pts
@@ -813,7 +853,7 @@
 		)
 		(uuid "29c917f4-8565-4504-8fc4-f94f4b01e4d9")
 	)
-	(label "BAT_CAN_H"
+	(label "CAN_H"
 		(at 176.53 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -912,7 +952,40 @@
 		)
 		(uuid "bf59b88b-92be-4530-b0f7-a7dabf1b3c6f")
 	)
-	(label "BAT_CAN_L"
+	(label "+12V"
+		(at 137.16 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0a117bc-72b3-40b9-b4db-87eb6e0c6d2a")
+	)
+	(label "CAN_L"
+		(at 179.07 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4ef1018-30f0-47f9-ba63-8665011ef93d")
+	)
+	(label "CAN_H"
+		(at 179.07 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c532da02-770e-4219-b8f4-060fa7900135")
+	)
+	(label "CAN_L"
 		(at 176.53 52.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -945,7 +1018,7 @@
 		)
 		(uuid "e13d7cec-2dfc-4184-b234-7bf8f603178d")
 	)
-	(label "BAT_CAN_H"
+	(label "CAN_H"
 		(at 58.42 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -956,7 +1029,7 @@
 		)
 		(uuid "e41936a9-ac1a-4aa0-a979-048454d1cdc4")
 	)
-	(label "BAT_CAN_L"
+	(label "CAN_L"
 		(at 58.42 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -990,6 +1063,18 @@
 			(justify right)
 		)
 		(uuid "448e1523-3c2a-4d40-a14a-69f16ffaf21b")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 137.16 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd1e4281-6762-4b42-9edc-bba8a0cd3ca9")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1450,7 +1535,7 @@
 			)
 			(uuid "7441f1ba-2376-4fac-8c17-c3de1f59cf1a")
 		)
-		(pin "BAT_CAN_L" input
+		(pin "CAN_L" input
 			(at 173.99 52.07 0)
 			(effects
 				(font
@@ -1460,7 +1545,7 @@
 			)
 			(uuid "297b4acc-3eb8-4a85-ac3e-ad528236e965")
 		)
-		(pin "BAT_CAN_H" input
+		(pin "CAN_H" input
 			(at 173.99 54.61 0)
 			(effects
 				(font
@@ -1572,6 +1657,84 @@
 			(project "main"
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 69.85)
+		(size 33.02 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "956e0365-6d74-4799-9d68-b1a004ee179e")
+		(property "Sheetname" "Sensors"
+			(at 140.97 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 140.97 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" input
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65f1dc4c-752b-4180-926d-55f3d9cf53a3")
+		)
+		(pin "CAN_L" input
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cfd9532f-6c85-4266-8e18-9a9fbc17ca11")
+		)
+		(pin "+12V" input
+			(at 140.97 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0ad321f5-42fc-40e2-969a-9bb64b262f47")
+		)
+		(pin "GND" input
+			(at 140.97 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "430c2748-c5bc-4f49-8672-c0a37096618a")
+		)
+		(instances
+			(project "main"
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e"
+					(page "21")
 				)
 			)
 		)

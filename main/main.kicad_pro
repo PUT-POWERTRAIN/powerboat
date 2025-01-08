@@ -385,7 +385,7 @@
   "sheets": [
     [
       "54fbbba9-a737-4199-9a4b-f9fa49b3de5e",
-      "Główny"
+      "Root"
     ],
     [
       "42b38d5d-5c36-4712-95e4-9fdfab477064",
@@ -462,6 +462,42 @@
     [
       "0e0ba13e-1f37-4579-8a2d-3eca3dc701e5",
       "Main_Motor"
+    ],
+    [
+      "956e0365-6d74-4799-9d68-b1a004ee179e",
+      "Sensors"
+    ],
+    [
+      "6bee5958-45a1-4a7d-a0c1-aebf48de0034",
+      "Sensor"
+    ],
+    [
+      "6855a4a5-fa00-4b78-a90f-a5ba72afe8da",
+      "Sensor1"
+    ],
+    [
+      "691d0288-4a08-47b2-8436-3e4c1f0c1747",
+      "Sensor2"
+    ],
+    [
+      "6f6ee34e-65bb-4441-8b73-56da4d26aeea",
+      "Sensor3"
+    ],
+    [
+      "57b3bab1-4604-4025-a7d0-014d6bebeb49",
+      "Sensor4"
+    ],
+    [
+      "b34b64d7-314b-4467-b59e-c5298b76d948",
+      "Sensor5"
+    ],
+    [
+      "e0637250-b07d-48bf-bc40-89e569854304",
+      "Sensor6"
+    ],
+    [
+      "fe6e5755-08f6-44db-b5fd-3ef1da44653a",
+      "Sensor7"
     ]
   ],
   "text_variables": {}
