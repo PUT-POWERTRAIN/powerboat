@@ -385,7 +385,7 @@
   "sheets": [
     [
       "54fbbba9-a737-4199-9a4b-f9fa49b3de5e",
-      "Root"
+      "Główny"
     ],
     [
       "42b38d5d-5c36-4712-95e4-9fdfab477064",
@@ -498,6 +498,10 @@
     [
       "fe6e5755-08f6-44db-b5fd-3ef1da44653a",
       "Sensor7"
+    ],
+    [
+      "bb2356e9-5b53-4784-8a08-c206b96d840f",
+      "Steering_Throttle_Actuators"
     ]
   ],
   "text_variables": {}

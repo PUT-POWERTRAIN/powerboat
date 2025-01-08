@@ -551,6 +551,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 133.35) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389d0fe9-f92f-4f4d-8922-b12bbda102cb")
+	)
+	(wire
+		(pts
 			(xy 173.99 54.61) (xy 176.53 54.61)
 		)
 		(stroke
@@ -598,6 +608,16 @@
 			(type default)
 		)
 		(uuid "58e54fda-3e8f-48a6-9d46-87998a2593a4")
+	)
+	(wire
+		(pts
+			(xy 173.99 129.54) (xy 179.07 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bb3c22-a16f-4ca3-9ab2-4f79554e2820")
 	)
 	(wire
 		(pts
@@ -691,6 +711,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 133.35) (xy 137.16 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3504975-443f-4b45-a5e5-d354ce84c880")
+	)
+	(wire
+		(pts
 			(xy 24.13 102.87) (xy 26.67 102.87)
 		)
 		(stroke
@@ -758,6 +788,16 @@
 			(type default)
 		)
 		(uuid "e22022b7-8ac9-4449-b5b7-37f945c599b8")
+	)
+	(wire
+		(pts
+			(xy 130.81 129.54) (xy 137.16 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef97da25-533f-4af3-96ca-e54c30ccfe56")
 	)
 	(wire
 		(pts
@@ -865,6 +905,17 @@
 		(uuid "316b28c7-f7d6-4fba-9a0f-48bdaa4ec811")
 	)
 	(label "+12V"
+		(at 130.81 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6315b10f-2827-4992-b14d-2d19a2731aa2")
+	)
+	(label "+12V"
 		(at 24.13 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -885,6 +936,17 @@
 			(justify right bottom)
 		)
 		(uuid "719a2b0d-d68f-4525-aa1c-8c10f538680f")
+	)
+	(label "CAN_H"
+		(at 179.07 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "762747ed-3015-4906-8321-4f6b3ab394e5")
 	)
 	(label "PV_SDA"
 		(at 71.12 52.07 0)
@@ -984,6 +1046,17 @@
 			(justify left bottom)
 		)
 		(uuid "c532da02-770e-4219-b8f4-060fa7900135")
+	)
+	(label "CAN_L"
+		(at 179.07 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6e1be6d-1968-4ef5-8ae0-138b40ace001")
 	)
 	(label "CAN_L"
 		(at 176.53 52.07 0)
@@ -1123,6 +1196,18 @@
 			(justify right)
 		)
 		(uuid "e7385076-1fa2-4c3f-9e71-633eb73cc5cc")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 130.81 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffd4b708-b8d5-421e-b4c4-fe950313f5f4")
 	)
 	(symbol
 		(lib_id "New_Library_0:Accumulator")
@@ -1735,6 +1820,84 @@
 			(project "main"
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e"
 					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 121.92)
+		(size 36.83 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb2356e9-5b53-4784-8a08-c206b96d840f")
+		(property "Sheetname" "Steering_Throttle_Actuators"
+			(at 137.16 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "steering_throttle_actuators.kicad_sch"
+			(at 137.16 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_L" input
+			(at 173.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59c31407-012e-4d5a-98ea-1a29538d460d")
+		)
+		(pin "+12V" input
+			(at 137.16 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6808d7a2-f4a6-4a4a-9fa3-8b315f9f21e7")
+		)
+		(pin "GND" input
+			(at 137.16 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1882f0d2-037b-4c2a-a681-76c4ddae7781")
+		)
+		(pin "CAN_H" input
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dba83328-1ba5-4d80-83ef-362c64170d18")
+		)
+		(instances
+			(project "main"
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e"
+					(page "30")
 				)
 			)
 		)
