@@ -786,6 +786,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 66.04) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318bfd03-3011-49af-8cf8-987ce1c0d6e1")
+	)
+	(wire
+		(pts
 			(xy 77.47 30.48) (xy 76.2 30.48)
 		)
 		(stroke
@@ -816,6 +826,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 95.25) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d86a1b8-1430-4345-9039-97e0879c0afa")
+	)
+	(wire
+		(pts
 			(xy 142.24 138.43) (xy 147.32 138.43)
 		)
 		(stroke
@@ -843,6 +863,16 @@
 			(type default)
 		)
 		(uuid "47c5607d-b95d-4dac-a645-c047795751c1")
+	)
+	(wire
+		(pts
+			(xy 171.45 90.17) (xy 175.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4844cf21-bf39-4c23-95e0-22588be25287")
 	)
 	(wire
 		(pts
@@ -886,6 +916,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 58.42) (xy 146.05 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5647b9ad-3b5f-4162-a809-87f0d91a1dd4")
+	)
+	(wire
+		(pts
 			(xy 82.55 91.44) (xy 85.09 91.44)
 		)
 		(stroke
@@ -893,6 +933,16 @@
 			(type default)
 		)
 		(uuid "58e54fda-3e8f-48a6-9d46-87998a2593a4")
+	)
+	(wire
+		(pts
+			(xy 172.72 100.33) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b14d654-7b0d-49e9-aea0-e43b5b7ebec1")
 	)
 	(wire
 		(pts
@@ -1046,6 +1096,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 102.87) (xy 175.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a695cedf-4f08-4fca-9bb3-f8c126f549c2")
+	)
+	(wire
+		(pts
 			(xy 33.02 29.21) (xy 35.56 29.21)
 		)
 		(stroke
@@ -1083,6 +1143,26 @@
 			(type default)
 		)
 		(uuid "b438d7dd-74d0-4a04-9f61-c3c3bf9b4052")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccb74c0-0ed5-48b3-b0b4-6d036f05c91f")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6c7e3e-ad9d-4ec5-ab44-5fe5fc96829d")
 	)
 	(wire
 		(pts
@@ -1186,6 +1266,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 97.79) (xy 175.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcc9b7d-ff4f-4c3b-aae1-ee50fd6072f5")
+	)
+	(wire
+		(pts
+			(xy 171.45 87.63) (xy 175.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f136d5fa-17e1-4ee9-9c31-19e30d18af34")
+	)
+	(wire
+		(pts
 			(xy 104.14 44.45) (xy 109.22 44.45)
 		)
 		(stroke
@@ -1267,6 +1367,17 @@
 		)
 		(uuid "01a5a38a-3640-47aa-94f4-befb3da8d881")
 	)
+	(label "ORANGE_LED"
+		(at 146.05 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d4abd6f-dfcf-4539-af78-d826ac69c403")
+	)
 	(label "+12V"
 		(at 212.09 39.37 0)
 		(fields_autoplaced yes)
@@ -1278,6 +1389,28 @@
 		)
 		(uuid "0e4860e8-c37a-4ac5-9c6f-877b29e28391")
 	)
+	(label "AMS"
+		(at 146.05 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10febbd0-5dba-41d4-9b02-00608632b8d8")
+	)
+	(label "RED_LED"
+		(at 146.05 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18fed423-200a-44b3-b1a7-988a76ea899e")
+	)
 	(label "+12V"
 		(at 66.04 135.89 0)
 		(fields_autoplaced yes)
@@ -1288,6 +1421,17 @@
 			(justify left bottom)
 		)
 		(uuid "1b60cb92-db8f-493c-b873-04548329e88f")
+	)
+	(label "+3.3V"
+		(at 171.45 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22f54c6c-0a73-4b67-a70c-6f5bbf2cd9bf")
 	)
 	(label "VCC_PV"
 		(at 33.02 29.21 180)
@@ -1310,6 +1454,17 @@
 			(justify right bottom)
 		)
 		(uuid "29c917f4-8565-4504-8fc4-f94f4b01e4d9")
+	)
+	(label "RED_LED"
+		(at 172.72 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bd4435d-65aa-4518-bb42-10ade688cd9a")
 	)
 	(label "CAN_H"
 		(at 144.78 54.61 0)
@@ -1399,6 +1554,17 @@
 		)
 		(uuid "762747ed-3015-4906-8321-4f6b3ab394e5")
 	)
+	(label "GREEN_LED"
+		(at 146.05 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77a8ef03-ea18-443f-b919-441b431f061e")
+	)
 	(label "PV_SDA"
 		(at 80.01 39.37 0)
 		(fields_autoplaced yes)
@@ -1409,6 +1575,17 @@
 			(justify left bottom)
 		)
 		(uuid "79318086-e976-4481-8cf8-69dd566b3c9c")
+	)
+	(label "GREEN_LED"
+		(at 172.72 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "821c8571-eb0e-476c-b705-d599d59a5314")
 	)
 	(label "+12V"
 		(at 33.02 115.57 180)
@@ -1542,6 +1719,17 @@
 		)
 		(uuid "c6e1be6d-1968-4ef5-8ae0-138b40ace001")
 	)
+	(label "AMS"
+		(at 172.72 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca83c9b9-e32b-4ea7-bd2b-2ed7ed31d05a")
+	)
 	(label "4_pin_power"
 		(at 214.63 93.98 0)
 		(fields_autoplaced yes)
@@ -1596,6 +1784,17 @@
 			(justify right bottom)
 		)
 		(uuid "d753ae38-9506-4209-989c-dac86cd66532")
+	)
+	(label "ORANGE_LED"
+		(at 172.72 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc18e194-bbab-4136-aecd-e8d144c6a182")
 	)
 	(label "PV_SCL"
 		(at 144.78 43.18 0)
@@ -1772,6 +1971,18 @@
 			(justify right)
 		)
 		(uuid "e7385076-1fa2-4c3f-9e71-633eb73cc5cc")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 171.45 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef0fb739-f951-48bc-a047-5fef8e2ba9a9")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2265,7 +2476,7 @@
 	)
 	(sheet
 		(at 109.22 36.83)
-		(size 33.02 21.59)
+		(size 33.02 34.29)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2285,7 +2496,7 @@
 			)
 		)
 		(property "Sheetfile" "CCU.kicad_sch"
-			(at 109.22 59.0046 0)
+			(at 109.22 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,6 +2574,46 @@
 			)
 			(uuid "da88db95-862e-428e-875d-e18377617afa")
 		)
+		(pin "RED_LED" input
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b451e156-bcb2-4e99-9ac3-12c031ea4815")
+		)
+		(pin "GREEN_LED" input
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e7173661-681c-4091-8d71-6511281da3b6")
+		)
+		(pin "ORANGE_LED" input
+			(at 142.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12b41739-d9d9-4c7f-b438-e18dac1b91b2")
+		)
+		(pin "AMS" input
+			(at 142.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af37573b-cc77-4e2c-9902-34714acaefd2")
+		)
 		(instances
 			(project "main"
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e"
@@ -2373,7 +2624,7 @@
 	)
 	(sheet
 		(at 175.26 83.82)
-		(size 31.75 16.51)
+		(size 31.75 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2393,7 +2644,7 @@
 			)
 		)
 		(property "Sheetfile" "User_Interface.kicad_sch"
-			(at 175.26 100.9146 0)
+			(at 175.26 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,6 +2691,66 @@
 				(justify right)
 			)
 			(uuid "25eea644-fe07-412a-9329-d99e7c12477c")
+		)
+		(pin "+3.3V" input
+			(at 175.26 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ae462e9-b5a4-4917-be27-6d6841515755")
+		)
+		(pin "GND" input
+			(at 175.26 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca43110f-1bcc-4486-b004-9ec3e8a9743b")
+		)
+		(pin "AMS" input
+			(at 175.26 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a137ae8a-10b8-4a0b-8bba-9d5d255859cb")
+		)
+		(pin "RED_LED" input
+			(at 175.26 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a882a2a-1154-4484-85a2-ffd9b4b52f1b")
+		)
+		(pin "ORANGE_LED" input
+			(at 175.26 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0425ea94-fbd8-4145-8b47-b2dbf8d4cbfc")
+		)
+		(pin "GRREEN_LED" input
+			(at 175.26 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fb8e936-1417-46bd-980c-53cdae7bb364")
 		)
 		(instances
 			(project "main"
