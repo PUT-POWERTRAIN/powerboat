@@ -236,9 +236,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "New_Library_0"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "main.kicad_pro",
@@ -512,6 +510,18 @@
     [
       "3ec4e0ef-19c3-4e21-bb09-251ed42858ce",
       "User Interface"
+    ],
+    [
+      "5a388ad5-d7e4-450e-90e4-439ec71463dc",
+      "Battery_Temp_Sensor"
+    ],
+    [
+      "eeb18b0a-49a7-4ad2-b2b8-4d198a13df29",
+      "Battery_Temp_Sensors"
+    ],
+    [
+      "0bcc56e3-8735-4d1a-a350-1ae9e845a70b",
+      "Battery_Temp_Sensor1"
     ]
   ],
   "text_variables": {}
