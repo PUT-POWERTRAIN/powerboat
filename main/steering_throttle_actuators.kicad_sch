@@ -366,6 +366,7 @@
 		(uuid "ebcc0db1-7a05-442d-8565-dd9ae19137c5")
 	)
 	(symbol
+		(lib_name "New_Library_0:Motor")
 		(lib_id "New_Library_0:Motor")
 		(at 157.48 90.17 0)
 		(unit 1)
@@ -383,7 +384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Steering_Motor"
+		(property "Value" "Steering_Rod_Motor"
 			(at 150.622 99.06 0)
 			(effects
 				(font
