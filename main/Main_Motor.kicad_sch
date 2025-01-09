@@ -10,7 +10,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "E_S"
-				(at 0 7.366 0)
+				(at 0 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -54,8 +54,8 @@
 			)
 			(symbol "Emergency_Switch_0_1"
 				(rectangle
-					(start -8.89 6.35)
-					(end 8.89 -6.35)
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -67,7 +67,7 @@
 			)
 			(symbol "Emergency_Switch_1_1"
 				(text "Emergency switch"
-					(at 0 3.81 0)
+					(at 0 5.08 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -75,7 +75,7 @@
 					)
 				)
 				(pin power_in line
-					(at -11.43 0 0)
+					(at -7.62 0 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -93,7 +93,7 @@
 					)
 				)
 				(pin power_out line
-					(at 11.43 0 180)
+					(at 7.62 0 180)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -504,13 +504,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 96.52) (xy 72.39 96.52)
+			(xy 72.39 96.52) (xy 77.47 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "02961063-622f-41a1-a241-19b4d885ff4f")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 111.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129e5b1f-9e03-4b2d-b535-10d720869f7e")
 	)
 	(wire
 		(pts
@@ -531,16 +541,6 @@
 			(type default)
 		)
 		(uuid "838c5cd7-01ee-4cc8-8dc7-6244395b3eb5")
-	)
-	(wire
-		(pts
-			(xy 111.76 96.52) (xy 96.52 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e07e621-bc70-4860-83f6-d78b0155bad4")
 	)
 	(hierarchical_label "CAN_H"
 		(shape input)
@@ -716,6 +716,74 @@
 		)
 	)
 	(symbol
+		(lib_id "New_Library_0:Emergency_Switch")
+		(at 85.09 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97a29ea4-18e9-445c-8a43-65492e8e90f0")
+		(property "Reference" "E_S1"
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3faefda7-30b0-44ec-9131-390f39907c2b")
+		)
+		(pin ""
+			(uuid "c577fc85-7964-4db5-a466-5c063c432260")
+		)
+		(instances
+			(project ""
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/0e0ba13e-1f37-4579-8a2d-3eca3dc701e5"
+					(reference "E_S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library_0:Motor")
 		(at 160.02 100.33 0)
 		(unit 1)
@@ -788,74 +856,6 @@
 			(project ""
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/0e0ba13e-1f37-4579-8a2d-3eca3dc701e5"
 					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library_0:Emergency_Switch")
-		(at 85.09 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be6ea8a4-18c6-4256-9673-e425d98e1f14")
-		(property "Reference" "E_S1"
-			(at 85.09 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 85.09 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "c4c1334e-dda5-49e4-85e0-09b7f74c50cd")
-		)
-		(pin ""
-			(uuid "4ac3cdb7-98b6-44a2-94fb-8856991c2c38")
-		)
-		(instances
-			(project ""
-				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/0e0ba13e-1f37-4579-8a2d-3eca3dc701e5"
-					(reference "E_S1")
 					(unit 1)
 				)
 			)
