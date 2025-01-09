@@ -628,6 +628,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 86.36) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08366f8a-58c4-4923-81ec-eed8ffcb6a7d")
+	)
+	(wire
+		(pts
 			(xy 62.23 135.89) (xy 66.04 135.89)
 		)
 		(stroke
@@ -938,6 +948,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 153.67) (xy 67.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b438d7dd-74d0-4a04-9f61-c3c3bf9b4052")
+	)
+	(wire
+		(pts
 			(xy 35.56 93.98) (xy 38.1 93.98)
 		)
 		(stroke
@@ -1107,6 +1127,17 @@
 			)
 		)
 		(uuid "d7d3f661-89e4-4634-b9e3-433075db89ea")
+	)
+	(label "NMEA"
+		(at 67.31 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01a5a38a-3640-47aa-94f4-befb3da8d881")
 	)
 	(label "+12V"
 		(at 212.09 39.37 0)
@@ -1404,6 +1435,17 @@
 			(justify left bottom)
 		)
 		(uuid "d026ab3a-fe7e-4ad3-90b9-4367ac3c8285")
+	)
+	(label "NMEA"
+		(at 214.63 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d03cceb3-91b1-412a-92d4-5a6a3d7ba5bf")
 	)
 	(label "Ethernet"
 		(at 213.36 54.61 0)
@@ -1921,7 +1963,7 @@
 	)
 	(sheet
 		(at 35.56 132.08)
-		(size 26.67 20.32)
+		(size 26.67 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1941,7 +1983,7 @@
 			)
 		)
 		(property "Sheetfile" "Main_Motor.kicad_sch"
-			(at 35.56 152.9846 0)
+			(at 35.56 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,6 +2050,16 @@
 				(justify right)
 			)
 			(uuid "a88e76ad-e9ae-449c-8c77-931142ed9ecb")
+		)
+		(pin "NMEA" input
+			(at 62.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7da49127-cf35-4a79-8f9c-0c155d634eaf")
 		)
 		(instances
 			(project "main"

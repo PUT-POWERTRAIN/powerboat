@@ -116,20 +116,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M"
-				(at 0 0 0)
+			(property "Reference" "M1"
+				(at -1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 3.81 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -279,6 +281,24 @@
 					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "NMEA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -546,6 +566,18 @@
 		)
 		(uuid "41d44b43-48a0-402c-bed3-39d4ceace534")
 	)
+	(hierarchical_label "NMEA"
+		(shape input)
+		(at 172.72 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f932e85-3819-4591-9aa8-87d0f3824ec1")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 123.19 81.28 90)
@@ -748,6 +780,9 @@
 		)
 		(pin ""
 			(uuid "7f71ace8-a45a-41f4-ad54-ae673b2dc89e")
+		)
+		(pin ""
+			(uuid "d2d8ba6e-e8b7-47c3-8c18-c04c2e50087e")
 		)
 		(instances
 			(project ""
