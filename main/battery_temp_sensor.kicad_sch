@@ -1168,7 +1168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14083f0b-b206-4e11-bafc-3f4b8fa72fca")
-		(property "Reference" "ADS17"
+		(property "Reference" "ADS18"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -1264,7 +1264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e59cd4-02f5-4ad3-b35a-42ff791cce08")
-		(property "Reference" "NTC17"
+		(property "Reference" "NTC18"
 			(at 92.71 90.17 90)
 			(effects
 				(font
@@ -1336,7 +1336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3456909c-c58a-4e00-997d-526dfd1946ec")
-		(property "Reference" "ISO18"
+		(property "Reference" "ISO19"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -1426,7 +1426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d452bc1-e28a-4935-9d45-80eec3477970")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 87.6299 82.55 0)
 			(effects
 				(font
@@ -1500,7 +1500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9de365e0-8a41-42c9-9e80-3051d703e1e5")
-		(property "Reference" "D36V6F17"
+		(property "Reference" "D36V6F26"
 			(at 62.23 47.6249 0)
 			(effects
 				(font
