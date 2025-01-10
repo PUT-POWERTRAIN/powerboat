@@ -2995,20 +2995,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "MPPT_Victron_150{backslash}35_0_1"
+		(symbol "MPPT_Victron_150{backslash}35_1_1"
 			(rectangle
-				(start -8.89 -6.35)
-				(end 8.89 6.35)
+				(start -8.89 6.35)
+				(end 8.89 -6.35)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "MPPT_Victron_150{backslash}35_1_1"
 			(pin power_out line
 				(at -6.35 -8.89 90)
 				(length 2.54)
