@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Adapter"
-			(at 0 13.208 0)
+			(at 0.254 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,11 +119,11 @@
 			)
 		)
 	)
-	(symbol "ADC"
+	(symbol "ADS1115"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "ADS1115"
+		(property "Reference" "A"
 			(at 0 4.826 0)
 			(effects
 				(font
@@ -131,8 +131,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at -2.54 2.54 0)
+		(property "Value" "ADS1115"
+			(at 8.382 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,7 +166,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ADC_0_1"
+		(symbol "ADS1115_0_1"
 			(rectangle
 				(start -12.7 3.81)
 				(end 12.7 -2.54)
@@ -179,7 +179,7 @@
 				)
 			)
 		)
-		(symbol "ADC_1_1"
+		(symbol "ADS1115_1_1"
 			(pin input line
 				(at -3.81 -5.08 90)
 				(length 2.54)
@@ -553,7 +553,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "A"
 			(at 0 19.05 0)
 			(effects
 				(font
@@ -1044,20 +1044,20 @@
 			)
 		)
 	)
-	(symbol "Bidirectional I2C Isolator"
+	(symbol "Adafruit_4903"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "ISO1540"
-			(at 0.254 8.382 0)
+		(property "Reference" "A"
+			(at 0 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 -6.35 0)
+		(property "Value" "Adafruit 4903"
+			(at 8.128 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +1091,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Bidirectional I2C Isolator_0_1"
+		(symbol "Adafruit_4903_1_1"
 			(rectangle
 				(start -6.35 6.35)
 				(end 6.35 -6.35)
@@ -1100,11 +1100,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "Bidirectional I2C Isolator_1_1"
 			(pin input line
 				(at -8.89 3.81 0)
 				(length 2.54)
@@ -1989,7 +1987,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "A"
-			(at -1.778 21.59 0)
+			(at 0 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +1995,7 @@
 			)
 		)
 		(property "Value" "Jetson_Orin_nano"
-			(at 8.89 21.59 0)
+			(at 12.954 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3714,7 @@
 			)
 		)
 		(property "Value" "Oak-D"
-			(at 3.81 4.572 0)
+			(at 3.81 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)

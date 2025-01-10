@@ -373,20 +373,20 @@
 				)
 			)
 		)
-		(symbol "New_Library_0:Bidirectional I2C Isolator"
+		(symbol "New_Library_0:Adafruit_4903"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "ISO1540"
-				(at 0.254 8.382 0)
+			(property "Reference" "A"
+				(at 0 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 -6.35 0)
+			(property "Value" "Adafruit 4903"
+				(at 8.128 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -420,7 +420,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Bidirectional I2C Isolator_0_1"
+			(symbol "Adafruit_4903_1_1"
 				(rectangle
 					(start -6.35 6.35)
 					(end 6.35 -6.35)
@@ -429,11 +429,9 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "Bidirectional I2C Isolator_1_1"
 				(pin input line
 					(at -8.89 3.81 0)
 					(length 2.54)
@@ -2745,96 +2743,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library_0:Bidirectional I2C Isolator")
-		(at 135.89 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3456909c-c58a-4e00-997d-526dfd1946ec")
-		(property "Reference" "ISO19"
-			(at 135.89 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7dbed995-83d1-41dc-8390-1114ae3ce662")
-		)
-		(pin ""
-			(uuid "635551fd-c306-47d3-88c9-ec956faa2975")
-		)
-		(pin ""
-			(uuid "20742046-727d-491b-8018-7957e6725c17")
-		)
-		(pin ""
-			(uuid "51d02c93-0f71-4065-8852-ee44b32b9b0d")
-		)
-		(pin ""
-			(uuid "db457982-da76-4f8f-8283-b2706d6fce60")
-		)
-		(pin ""
-			(uuid "278e93c0-a7dd-4363-a63e-3810c37e7018")
-		)
-		(pin ""
-			(uuid "c09eca78-bb46-4d0f-bb38-d6bc1bf0fc37")
-		)
-		(pin ""
-			(uuid "7378624f-10c9-4734-acf7-35e4f9a589fb")
-		)
-		(instances
-			(project "main"
-				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/956e0365-6d74-4799-9d68-b1a004ee179e/eeb18b0a-49a7-4ad2-b2b8-4d198a13df29/0bcc56e3-8735-4d1a-a350-1ae9e845a70b"
-					(reference "ISO19")
-					(unit 1)
-				)
-				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/956e0365-6d74-4799-9d68-b1a004ee179e/eeb18b0a-49a7-4ad2-b2b8-4d198a13df29/5a388ad5-d7e4-450e-90e4-439ec71463dc"
-					(reference "ISO18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 88.9 85.09 270)
 		(unit 1)
@@ -2983,6 +2891,96 @@
 				)
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/956e0365-6d74-4799-9d68-b1a004ee179e/eeb18b0a-49a7-4ad2-b2b8-4d198a13df29/5a388ad5-d7e4-450e-90e4-439ec71463dc"
 					(reference "D36V6F17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library_0:Adafruit_4903")
+		(at 135.89 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d195864e-4caf-47e9-bcf2-2b6329dc7e91")
+		(property "Reference" "A5"
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Adafruit 4903"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8562a5d7-f831-4ce7-8e86-96cc49f199c8")
+		)
+		(pin ""
+			(uuid "6e00ac33-3a53-4b38-b881-6f3d98db02d7")
+		)
+		(pin ""
+			(uuid "b01e2fa8-8bd4-42b5-8933-5146fc56dad8")
+		)
+		(pin ""
+			(uuid "ecfa0612-ccc1-42ab-b0df-f478e66a0613")
+		)
+		(pin ""
+			(uuid "2693f3c0-ff00-4035-8b55-a3b7d9852c32")
+		)
+		(pin ""
+			(uuid "83b6395a-ee71-4b8e-a483-39dcf9800465")
+		)
+		(pin ""
+			(uuid "104d9a78-8603-4174-a191-0758e790b5a1")
+		)
+		(pin ""
+			(uuid "052a1b09-dfd4-429a-8a08-1e9a228bcf62")
+		)
+		(instances
+			(project ""
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/956e0365-6d74-4799-9d68-b1a004ee179e/eeb18b0a-49a7-4ad2-b2b8-4d198a13df29/0bcc56e3-8735-4d1a-a350-1ae9e845a70b"
+					(reference "A5")
+					(unit 1)
+				)
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/956e0365-6d74-4799-9d68-b1a004ee179e/eeb18b0a-49a7-4ad2-b2b8-4d198a13df29/5a388ad5-d7e4-450e-90e4-439ec71463dc"
+					(reference "A1")
 					(unit 1)
 				)
 			)

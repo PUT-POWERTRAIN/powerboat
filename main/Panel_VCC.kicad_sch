@@ -373,20 +373,20 @@
 				)
 			)
 		)
-		(symbol "New_Library_0:Bidirectional I2C Isolator"
+		(symbol "New_Library_0:Adafruit_4903"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "ISO1540"
-				(at 0.254 8.382 0)
+			(property "Reference" "A"
+				(at 0 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 -6.35 0)
+			(property "Value" "Adafruit 4903"
+				(at 8.128 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -420,7 +420,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Bidirectional I2C Isolator_0_1"
+			(symbol "Adafruit_4903_1_1"
 				(rectangle
 					(start -6.35 6.35)
 					(end 6.35 -6.35)
@@ -429,11 +429,9 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "Bidirectional I2C Isolator_1_1"
 				(pin input line
 					(at -8.89 3.81 0)
 					(length 2.54)
@@ -2862,7 +2860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library_0:Bidirectional I2C Isolator")
+		(lib_id "New_Library_0:Adafruit_4903")
 		(at 170.18 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2870,17 +2868,17 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0861ab89-d2d3-4cb3-aa83-a307d958bcce")
-		(property "Reference" "ISO12"
-			(at 170.18 71.12 0)
+		(uuid "16742bcc-7c00-4a97-9adf-6d205cacc0fc")
+		(property "Reference" "A17"
+			(at 170.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 170.18 73.66 0)
+		(property "Value" "Adafruit 4903"
+			(at 170.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,61 +2913,61 @@
 			)
 		)
 		(pin ""
-			(uuid "1e2c03fe-5bf5-4fc3-9db2-066c47fd5eb8")
+			(uuid "68da93a5-40ad-4c59-b967-fd762438058c")
 		)
 		(pin ""
-			(uuid "c0a7de86-77d9-4528-b65d-bda7a04ea472")
+			(uuid "31d3e2c0-bec3-4563-8ae9-1fca40b11323")
 		)
 		(pin ""
-			(uuid "3dd4f2a2-96bc-4241-a576-4922146d5785")
+			(uuid "a71e9f28-c09e-4777-a9e5-51f95488a795")
 		)
 		(pin ""
-			(uuid "591127df-da0a-41a6-b626-7dc2f15b68c7")
+			(uuid "23c0ff54-a87d-4fc4-9a05-8d4079abbd2f")
 		)
 		(pin ""
-			(uuid "18897207-a7d9-4123-a64d-d7774c78762d")
+			(uuid "9b6261a3-9fb6-4ab1-b138-63f65295c898")
 		)
 		(pin ""
-			(uuid "d197b71e-8b2a-4560-8991-31815aad04b8")
+			(uuid "a500a01a-f366-476f-98cf-eb04af636f50")
 		)
 		(pin ""
-			(uuid "edc7d20e-2bac-49d3-a62e-63e5f4c4240c")
+			(uuid "3822f081-cd42-4e6a-8d87-1013589aab9a")
 		)
 		(pin ""
-			(uuid "8c72f019-cfc7-45f4-9efc-2dba954cdfdb")
+			(uuid "42684da9-8bc9-44b7-9aba-077d79035d46")
 		)
 		(instances
 			(project "main"
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/42b38d5d-5c36-4712-95e4-9fdfab477064/6cfcbdb0-aed9-4bf5-b5b7-5d12e64435b6"
-					(reference "ISO12")
+					(reference "A17")
 					(unit 1)
 				)
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/42b38d5d-5c36-4712-95e4-9fdfab477064/6faa4d2a-3148-4c79-9699-af4299296d27"
-					(reference "ISO9")
+					(reference "A14")
 					(unit 1)
 				)
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/42b38d5d-5c36-4712-95e4-9fdfab477064/85a69679-bf7c-4613-951c-5fe9591916d9"
-					(reference "ISO13")
+					(reference "A18")
 					(unit 1)
 				)
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/42b38d5d-5c36-4712-95e4-9fdfab477064/9fddd8d5-34c0-4e07-a46e-1d9a346c3d97"
-					(reference "ISO11")
+					(reference "A16")
 					(unit 1)
 				)
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/42b38d5d-5c36-4712-95e4-9fdfab477064/a35a0fc2-c5b3-42f6-81f7-38421381f330"
-					(reference "ISO10")
+					(reference "A15")
 					(unit 1)
 				)
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/42b38d5d-5c36-4712-95e4-9fdfab477064/ae956b07-f0d0-4016-86a0-bf6fc2aeb97f"
-					(reference "ISO16")
+					(reference "A21")
 					(unit 1)
 				)
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/42b38d5d-5c36-4712-95e4-9fdfab477064/ec3047b9-e591-40d3-8660-9274d804d577"
-					(reference "ISO14")
+					(reference "A19")
 					(unit 1)
 				)
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/42b38d5d-5c36-4712-95e4-9fdfab477064/f723695a-1365-4026-81d9-82c620c5e3e6"
-					(reference "ISO15")
+					(reference "A20")
 					(unit 1)
 				)
 			)
@@ -3210,7 +3208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "90k"
+		(property "Value" "1k"
 			(at 104.14 90.1699 0)
 			(effects
 				(font
@@ -3406,7 +3404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k"
 			(at 104.14 82.5499 0)
 			(effects
 				(font
