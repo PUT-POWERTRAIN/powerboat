@@ -1189,6 +1189,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 170.18) (xy 119.38 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4403f9-a3ab-4a30-b5e1-d3e33049e1be")
+	)
+	(wire
+		(pts
 			(xy 40.64 31.75) (xy 43.18 31.75)
 		)
 		(stroke
@@ -4967,6 +4977,18 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
+		(at 115.57 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbce6be8-b666-446f-ad7f-48c2dd4ac898")
+	)
+	(hierarchical_label "GND"
+		(shape input)
 		(at 52.07 68.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6070,6 +6092,16 @@
 				(justify right)
 			)
 			(uuid "70c33da4-0492-43c8-b127-ad47981bb43d")
+		)
+		(pin "GND" input
+			(at 119.38 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "082b4706-c7fd-455d-801c-85fc6a392feb")
 		)
 		(instances
 			(project "main"
