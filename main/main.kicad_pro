@@ -522,6 +522,10 @@
     [
       "0bcc56e3-8735-4d1a-a350-1ae9e845a70b",
       "Battery_Temp_Sensor1"
+    ],
+    [
+      "7cfabc18-403c-4549-890d-a8e23f0c0871",
+      "Switching system"
     ]
   ],
   "text_variables": {}

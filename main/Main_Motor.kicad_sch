@@ -10,113 +10,6 @@
 		(company "Designers: Krzysztof Grajek, Wojtek Kołodziej")
 	)
 	(lib_symbols
-		(symbol "New_Library_0:Emergency_Switch"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "E_S"
-				(at 0 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Emergency_Switch_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Emergency_Switch_1_1"
-				(text "Emergency switch"
-					(at 0 5.08 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "New_Library_0:Motor"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -509,23 +402,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 96.52) (xy 77.47 96.52)
+			(xy 72.39 96.52) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "02961063-622f-41a1-a241-19b4d885ff4f")
-	)
-	(wire
-		(pts
-			(xy 92.71 96.52) (xy 111.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129e5b1f-9e03-4b2d-b535-10d720869f7e")
 	)
 	(wire
 		(pts
@@ -2129,74 +2012,6 @@
 			(project ""
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/0e0ba13e-1f37-4579-8a2d-3eca3dc701e5"
 					(reference "SSh1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library_0:Emergency_Switch")
-		(at 85.09 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97a29ea4-18e9-445c-8a43-65492e8e90f0")
-		(property "Reference" "E_S1"
-			(at 85.09 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 85.09 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "3faefda7-30b0-44ec-9131-390f39907c2b")
-		)
-		(pin ""
-			(uuid "c577fc85-7964-4db5-a466-5c063c432260")
-		)
-		(instances
-			(project ""
-				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/0e0ba13e-1f37-4579-8a2d-3eca3dc701e5"
-					(reference "E_S1")
 					(unit 1)
 				)
 			)
