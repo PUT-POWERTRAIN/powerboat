@@ -879,7 +879,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 100.33) (xy 199.39 100.33)
+			(xy 195.58 96.52) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1396,16 +1396,6 @@
 			(type default)
 		)
 		(uuid "efcc9b7d-ff4f-4c3b-aae1-ee50fd6072f5")
-	)
-	(wire
-		(pts
-			(xy 195.58 97.79) (xy 199.39 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f136d5fa-17e1-4ee9-9c31-19e30d18af34")
 	)
 	(wire
 		(pts
@@ -4307,17 +4297,6 @@
 		)
 		(uuid "1b60cb92-db8f-493c-b873-04548329e88f")
 	)
-	(label "+3.3V"
-		(at 195.58 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "22f54c6c-0a73-4b67-a70c-6f5bbf2cd9bf")
-	)
 	(label "VCC_PV"
 		(at 40.64 31.75 180)
 		(fields_autoplaced yes)
@@ -4959,7 +4938,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 195.58 100.33 180)
+		(at 195.58 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5687,18 +5666,8 @@
 			)
 			(uuid "25eea644-fe07-412a-9329-d99e7c12477c")
 		)
-		(pin "+3.3V" input
-			(at 199.39 97.79 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4ae462e9-b5a4-4917-be27-6d6841515755")
-		)
 		(pin "GND" input
-			(at 199.39 100.33 180)
+			(at 199.39 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
