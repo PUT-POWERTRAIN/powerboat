@@ -2744,7 +2744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53f67a98-be13-45d7-a529-bcbb94cf1dde")
-		(property "Reference" "Switch1"
+		(property "Reference" "AMS"
 			(at 209.55 86.3599 90)
 			(effects
 				(font
@@ -2801,7 +2801,7 @@
 		(instances
 			(project ""
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/7cfabc18-403c-4549-890d-a8e23f0c0871"
-					(reference "Switch1")
+					(reference "AMS")
 					(unit 1)
 				)
 			)

@@ -5022,18 +5022,6 @@
 		)
 		(uuid "8d4faeac-fdec-4378-9f70-ebfcf2ab00d9")
 	)
-	(hierarchical_label "AMS"
-		(shape input)
-		(at 152.4 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9a7e51c6-aa98-4b60-85f3-3938eb03b937")
-	)
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 127 63.5 0)
