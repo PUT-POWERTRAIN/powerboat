@@ -10,6 +10,105 @@
 		(company "Designers: Krzysztof Grajek, Wojtek Kołodziej")
 	)
 	(lib_symbols
+		(symbol "New_Library_0:DigitalGateway"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DG"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DigitalGateway_0_1"
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DigitalGateway_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "New_Library_0:Motor"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -429,6 +528,16 @@
 			(type default)
 		)
 		(uuid "838c5cd7-01ee-4cc8-8dc7-6244395b3eb5")
+	)
+	(wire
+		(pts
+			(xy 172.72 100.33) (xy 185.42 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7051438-d87b-4c61-9708-7e91d76044e3")
 	)
 	(image
 		(at 264.16 33.02)
@@ -1844,6 +1953,16 @@
 			"EOgMfe4d9nt6Ql/XMWy0X+FaRGTS+z+LPUwUaJueGQAAAABJRU5ErkJggg=="
 		)
 	)
+	(text "Digital gateway"
+		(exclude_from_sim no)
+		(at 190.5 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d3b66d5-24e0-44e4-b0ef-cbfda4d84270")
+	)
 	(hierarchical_label "CAN_H"
 		(shape input)
 		(at 172.72 104.14 0)
@@ -1867,18 +1986,6 @@
 			(justify right)
 		)
 		(uuid "41d44b43-48a0-402c-bed3-39d4ceace534")
-	)
-	(hierarchical_label "NMEA"
-		(shape input)
-		(at 172.72 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f932e85-3819-4591-9aa8-87d0f3824ec1")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1939,6 +2046,86 @@
 			(justify left)
 		)
 		(uuid "e9a9f6f5-fc4b-4eba-859a-af88fc09e1d0")
+	)
+	(hierarchical_label "NMEA"
+		(shape input)
+		(at 195.58 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebd0939e-636a-4937-9493-af209d97a62c")
+	)
+	(symbol
+		(lib_id "New_Library_0:DigitalGateway")
+		(at 190.5 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "277181c2-8948-435e-a0ab-580622961627")
+		(property "Reference" "DG1"
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8f9c3eb0-b949-436f-961e-8dfd4246c460")
+		)
+		(pin ""
+			(uuid "b1e8ab64-1c8d-416f-9b89-efd6259d3f9d")
+		)
+		(instances
+			(project ""
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/0e0ba13e-1f37-4579-8a2d-3eca3dc701e5"
+					(reference "DG1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "New_Library_0:SmartShunt")
