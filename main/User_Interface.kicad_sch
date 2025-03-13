@@ -300,6 +300,123 @@
 				)
 			)
 		)
+		(symbol "New_Library_0:DigitalGateway"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DG"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DigitalGateway_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DigitalGateway_1_1"
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "New_Library_0:Monitor"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -438,6 +555,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 114.3) (xy 138.43 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4b172b-e95a-4b47-ab88-65c06e0bccbd")
+	)
+	(wire
+		(pts
 			(xy 92.71 118.11) (xy 93.98 118.11)
 		)
 		(stroke
@@ -465,6 +592,16 @@
 			(type default)
 		)
 		(uuid "69268173-0b9d-4742-9eae-f8b3e92ae777")
+	)
+	(wire
+		(pts
+			(xy 137.16 143.51) (xy 138.43 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97907309-fe37-4938-8536-c1368fb7e56a")
 	)
 	(wire
 		(pts
@@ -1910,6 +2047,28 @@
 			"EOgMfe4d9nt6Ql/XMWy0X+FaRGTS+z+LPUwUaJueGQAAAABJRU5ErkJggg=="
 		)
 	)
+	(text "Digital Gateway"
+		(exclude_from_sim no)
+		(at 131.826 150.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd586501-c2a4-4725-8954-24d34ddff6aa")
+	)
+	(hierarchical_label "CAN_H"
+		(shape input)
+		(at 127 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "051895cc-b1de-4721-a6da-97df9ef6f978")
+	)
 	(hierarchical_label "ORANGE_LED"
 		(shape input)
 		(at 93.98 118.11 0)
@@ -1958,18 +2117,6 @@
 		)
 		(uuid "53f2ae19-4c8e-42a1-9483-b0ff0b5d93a7")
 	)
-	(hierarchical_label "NMEA2000"
-		(shape input)
-		(at 138.43 114.3 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "592d4a52-fe1c-4938-9674-8434d99f5973")
-	)
 	(hierarchical_label "4_pin_power"
 		(shape input)
 		(at 163.83 114.3 270)
@@ -1993,6 +2140,18 @@
 			(justify right)
 		)
 		(uuid "5ccba861-17ff-4fe5-aed2-d8e1f16c6af8")
+	)
+	(hierarchical_label "CAN_L"
+		(shape input)
+		(at 127 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6103040b-5377-4505-ae2c-d35e666d05a4")
 	)
 	(hierarchical_label "9_pin_sonar"
 		(shape input)
@@ -2508,6 +2667,77 @@
 			(project "main"
 				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/3ec4e0ef-19c3-4e21-bb09-251ed42858ce"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library_0:DigitalGateway")
+		(at 132.08 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4e504b3-61ad-4c62-a32e-6cd875d1bfab")
+		(property "Reference" "DG1"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "efbbfbe9-4021-4f80-87c1-61fbdc427d0d")
+		)
+		(pin ""
+			(uuid "e5ae1bdb-c026-4e13-ac45-f82b970d15d4")
+		)
+		(pin ""
+			(uuid "dcc02605-6e38-4a03-8ef1-46f791aef823")
+		)
+		(instances
+			(project ""
+				(path "/54fbbba9-a737-4199-9a4b-f9fa49b3de5e/3ec4e0ef-19c3-4e21-bb09-251ed42858ce"
+					(reference "DG1")
 					(unit 1)
 				)
 			)

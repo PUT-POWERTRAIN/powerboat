@@ -1880,7 +1880,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "DG"
-			(at 0 4.318 0)
+			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,8 +1924,8 @@
 		)
 		(symbol "DigitalGateway_0_1"
 			(rectangle
-				(start -2.54 -2.54)
-				(end 2.54 2.54)
+				(start -2.54 5.08)
+				(end 2.54 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -1937,7 +1937,25 @@
 		)
 		(symbol "DigitalGateway_1_1"
 			(pin input line
-				(at -5.08 0 0)
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 3.81 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -3624,7 +3642,7 @@
 			(pin input line
 				(at -12.7 -15.24 90)
 				(length 2.54)
-				(name "NMEA2000"
+				(name "NMEA"
 					(effects
 						(font
 							(size 1.27 1.27)
